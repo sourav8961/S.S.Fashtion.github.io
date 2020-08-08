@@ -1,0 +1,487 @@
+<script src="https://cdn.jotfor.ms/js/payments/PaymentListSettings/searchInProducts.js?v=3.3.19458" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.19458" type="text/javascript"></script>
+<script src="https://js.jotform.com/vendor/postMessage.js?3.3.19458" type="text/javascript"></script>
+<script src="https://js.jotform.com/WidgetsServer.js?v=1596894772151" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/math-processor.js?v=3.3.19458" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.setCalculations([{"decimalPlaces":"2","equation":"[{100}*{103}]","ignoreHiddenFields":"0","insertAsText":"0","newCalculationType":"1","operands":"100,103","readOnly":"0","replaceText":"","resultField":"88","showBeforeInput":"0","showEmptyDecimals":"0","useCommasForDecimals":"0"},{"decimalPlaces":"2","equation":"[{106}*{107}]","ignoreHiddenFields":"0","insertAsText":"0","newCalculationType":"1","operands":"106,107","readOnly":"0","replaceText":"","resultField":"108","showBeforeInput":"0","showEmptyDecimals":"0","useCommasForDecimals":"0"},{"decimalPlaces":"2","equation":"[{110}*{111}]","ignoreHiddenFields":"0","insertAsText":"0","newCalculationType":"1","operands":"110,111","readOnly":"0","replaceText":"","resultField":"112","showBeforeInput":"0","showEmptyDecimals":"0","useCommasForDecimals":"0"},{"decimalPlaces":"2","equation":"[{114}*{115}]","ignoreHiddenFields":"0","insertAsText":"0","newCalculationType":"1","operands":"114,115","readOnly":"0","replaceText":"","resultField":"116","showBeforeInput":"0","showEmptyDecimals":"0","useCommasForDecimals":"0"},{"decimalPlaces":"2","equation":"[{118}*{119}]","ignoreHiddenFields":"0","insertAsText":"0","newCalculationType":"1","operands":"118,119","readOnly":"0","replaceText":"","resultField":"120","showBeforeInput":"0","showEmptyDecimals":"0","useCommasForDecimals":"0"}]);
+	JotForm.init(function(){
+if (window.JotForm && JotForm.accessible) $('input_24').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_100').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_103').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_105').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_106').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_107').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_109').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_110').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_111').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_113').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_114').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_115').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_117').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_118').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_119').setAttribute('tabindex',0);
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("34", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("34", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+ JotForm.formatDate({date:(new Date()), dateField:$("id_"+34)});
+ JotForm.displayLocalTime("hour_34", "min_34", "ampm_34");
+	JotForm.newDefaultTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+      JotForm.alterTexts({"couponApply":"Apply","couponBlank":"Please enter a coupon.","couponChange":"","couponEnter":"Enter coupon","couponExpired":"Coupon is expired. Please try another one.","couponInvalid":"Coupon is invalid.","couponValid":"Coupon is valid.","shippingShipping":"Shipping","taxTax":"Tax","totalSubtotal":"Subtotal","totalTotal":"Total"}, true);
+	JotForm.clearFieldOnHide="disable";
+      FormTranslation.init({"detectUserLanguage":"1","firstPageOnly":"0","options":"English (US)","originalLanguage":"en","primaryLanguage":"en","saveUserLanguage":"1","showStatus":"flag-with-nation","theme":"light-theme","version":"2"});
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"ssFashtion","qid":"1","text":"S.S FASHTION","type":"control_head"},null,null,null,null,null,{"name":"clickTo7","qid":"7","text":"Order Details","type":"control_head"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"kurtiCode","qid":"24","subLabel":"","text":"Kurti Code No","type":"control_textbox"},null,null,null,null,null,null,{"name":"clickTo31","qid":"31","text":"Payment Details","type":"control_head"},{"description":"","name":"paymentMode32","qid":"32","text":"Payment Mode","type":"control_checkbox"},{"name":"submit","qid":"33","text":"Submit","type":"control_button"},{"description":"","name":"orderDate","qid":"34","text":"Order Date","type":"control_datetime"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"payment","qid":"51","text":"Payment","type":"control_checkbox"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"divider","qid":"67","type":"control_divider"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"total","qid":"88","subLabel":"","text":"TOTAL","type":"control_calculation"},null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"quantity100","qid":"100","subLabel":"","text":"Quantity","type":"control_textbox"},null,null,{"description":"","name":"rate","qid":"103","subLabel":"","text":"Rate","type":"control_textbox"},null,{"description":"","name":"sareeCode","qid":"105","subLabel":"","text":"Saree Code No","type":"control_textbox"},{"description":"","name":"quantity","qid":"106","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate107","qid":"107","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total108","qid":"108","subLabel":"","text":"TOTAL","type":"control_calculation"},{"description":"","name":"laggingsCode","qid":"109","subLabel":"","text":"Laggings Code No","type":"control_textbox"},{"description":"","name":"quantity110","qid":"110","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate111","qid":"111","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total112","qid":"112","subLabel":"","text":"TOTAL","type":"control_calculation"},{"description":"","name":"nightyCode","qid":"113","subLabel":"","text":"Nighty Code No","type":"control_textbox"},{"description":"","name":"quantity114","qid":"114","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate115","qid":"115","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total116","qid":"116","subLabel":"","text":"TOTAL","type":"control_calculation"},{"description":"","name":"otherCode","qid":"117","subLabel":"","text":"Other Code No","type":"control_textbox"},{"description":"","name":"quantity118","qid":"118","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate119","qid":"119","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total120","qid":"120","subLabel":"","text":"TOTAL","type":"control_calculation"},{"name":"pageBreak125","qid":"121","text":"Page Break","type":"control_pagebreak"},null,null,{"name":"pageBreak124","qid":"124","text":"Page Break","type":"control_pagebreak"},null,null,{"name":"divider127","qid":"127","type":"control_divider"},{"name":"divider128","qid":"128","type":"control_divider"},null,{"description":"","name":"name","qid":"130","text":"Name","type":"control_fullname"},null,{"description":"","name":"phoneNumber","qid":"132","text":"Phone Number","type":"control_phone"},null,null,null,null,null,null,null,null,null,null,null,null,{"name":"productLists","qid":"145","text":"Product lists","type":"control_widget"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"ssFashtion","qid":"1","text":"S.S FASHTION","type":"control_head"},null,null,null,null,null,{"name":"clickTo7","qid":"7","text":"Order Details","type":"control_head"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"kurtiCode","qid":"24","subLabel":"","text":"Kurti Code No","type":"control_textbox"},null,null,null,null,null,null,{"name":"clickTo31","qid":"31","text":"Payment Details","type":"control_head"},{"description":"","name":"paymentMode32","qid":"32","text":"Payment Mode","type":"control_checkbox"},{"name":"submit","qid":"33","text":"Submit","type":"control_button"},{"description":"","name":"orderDate","qid":"34","text":"Order Date","type":"control_datetime"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"payment","qid":"51","text":"Payment","type":"control_checkbox"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"divider","qid":"67","type":"control_divider"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"total","qid":"88","subLabel":"","text":"TOTAL","type":"control_calculation"},null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"quantity100","qid":"100","subLabel":"","text":"Quantity","type":"control_textbox"},null,null,{"description":"","name":"rate","qid":"103","subLabel":"","text":"Rate","type":"control_textbox"},null,{"description":"","name":"sareeCode","qid":"105","subLabel":"","text":"Saree Code No","type":"control_textbox"},{"description":"","name":"quantity","qid":"106","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate107","qid":"107","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total108","qid":"108","subLabel":"","text":"TOTAL","type":"control_calculation"},{"description":"","name":"laggingsCode","qid":"109","subLabel":"","text":"Laggings Code No","type":"control_textbox"},{"description":"","name":"quantity110","qid":"110","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate111","qid":"111","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total112","qid":"112","subLabel":"","text":"TOTAL","type":"control_calculation"},{"description":"","name":"nightyCode","qid":"113","subLabel":"","text":"Nighty Code No","type":"control_textbox"},{"description":"","name":"quantity114","qid":"114","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate115","qid":"115","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total116","qid":"116","subLabel":"","text":"TOTAL","type":"control_calculation"},{"description":"","name":"otherCode","qid":"117","subLabel":"","text":"Other Code No","type":"control_textbox"},{"description":"","name":"quantity118","qid":"118","subLabel":"","text":"Quantity","type":"control_textbox"},{"description":"","name":"rate119","qid":"119","subLabel":"","text":"Rate","type":"control_textbox"},{"description":"","name":"total120","qid":"120","subLabel":"","text":"TOTAL","type":"control_calculation"},{"name":"pageBreak125","qid":"121","text":"Page Break","type":"control_pagebreak"},null,null,{"name":"pageBreak124","qid":"124","text":"Page Break","type":"control_pagebreak"},null,null,{"name":"divider127","qid":"127","type":"control_divider"},{"name":"divider128","qid":"128","type":"control_divider"},null,{"description":"","name":"name","qid":"130","text":"Name","type":"control_fullname"},null,{"description":"","name":"phoneNumber","qid":"132","text":"Phone Number","type":"control_phone"},null,null,null,null,null,null,null,null,null,null,null,null,{"name":"productLists","qid":"145","text":"Product lists","type":"control_widget"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.19458" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.19458" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.19458" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/54be8d1c700cc4d5368b4567.css?themeRevisionID=5cf3a162dd9c567eaf536421"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.19458" />
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:'Tahoma';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: false;
+    }
+
+</style>
+
+<form class="jotform-form" action="https://submit.jotform.com/submit/202114510315436/" method="post" name="form_202114510315436" id="202114510315436" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="202114510315436" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <link type="text/css" rel="stylesheet" media="all" href="https://cdn.jotfor.ms/wizards/languageWizard/custom-dropdown/css/lang-dd.css?3.3.19458" />
+    <div class="cont">
+      <input type="text" id="input_language" name="input_language" style="display:none" />
+      <div class="language-dd" id="langDd" style="display:none">
+        <div class="dd-placeholder lang-emp">
+          Language
+        </div>
+        <ul class="lang-list dn" id="langList">
+          <li data-lang="en" class="en">
+            English (US)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jotfor.ms/js/formTranslation.v2.js?3.3.19458"></script>
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-large">
+          <div class="header-text httac htvam">
+            <h1 id="header_1" class="form-header" data-component="header">
+              S.S FASHTION
+            </h1>
+            <div id="subHeader_1" class="form-subHeader">
+              Product Order Form
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_fullname" id="id_130">
+        <label class="form-label form-label-left form-label-auto" id="label_130" for="first_130">
+          Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_130" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_130" name="q130_name[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" aria-labelledby="label_130 sublabel_130_first" required="" />
+              <label class="form-sub-label" for="first_130" id="sublabel_130_first" style="min-height:13px" aria-hidden="false"> First Name </label>
+            </span>
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_130" name="q130_name[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_130 sublabel_130_last" required="" />
+              <label class="form-sub-label" for="last_130" id="sublabel_130_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_phone" id="id_132">
+        <label class="form-label form-label-left form-label-auto" id="label_132" for="input_132_area">
+          Phone Number
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_132" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="areaCode">
+              <input type="tel" id="input_132_area" name="q132_phoneNumber[area]" class="form-textbox validate[required]" size="6" value="" data-component="areaCode" aria-labelledby="label_132 sublabel_132_area" required="" />
+              <span class="phone-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="input_132_area" id="sublabel_132_area" style="min-height:13px" aria-hidden="false"> Area Code </label>
+            </span>
+            <span class="form-sub-label-container " style="vertical-align:top" data-input-type="phone">
+              <input type="tel" id="input_132_phone" name="q132_phoneNumber[phone]" class="form-textbox validate[required]" size="12" value="" data-component="phone" aria-labelledby="label_132 sublabel_132_phone" required="" />
+              <label class="form-sub-label" for="input_132_phone" id="sublabel_132_phone" style="min-height:13px" aria-hidden="false"> Phone Number </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li id="cid_7" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-small">
+          <div class="header-text httal htvam">
+            <h3 id="header_7" class="form-header" data-component="header">
+              Order Details
+            </h3>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_widget" id="id_145">
+        <label class="form-label form-label-top" id="label_145" for="input_145"> Product lists </label>
+        <div id="cid_145" class="form-input-wide">
+          <div data-widget-name="PDF Embedder" style="width:100%;text-align:Center;overflow-x:auto" data-component="widget-field">
+            <iframe title="PDF Embedder" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_145" src="" style="max-width:999px;border:none;width:100%;height:400px" data-width="999" data-height="400">
+            </iframe>
+            <div class="widget-inputs-wrapper">
+              <input type="hidden" id="input_145" class="form-hidden form-widget  " name="q145_productLists" value="" />
+              <input type="hidden" id="widget_settings_145" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22link%22%2C%22value%22%3A%7B%22name%22%3A%22Salepurchase%20or%20Profit%20and%20Loss%20Sheet.pdf%22%2C%22type%22%3A%22application%2Fpdf%22%2C%22url%22%3A%22www.jotform.com%22%2C%22base%22%3A%22Salepurchase%2520or%2520Profit%2520and%2520Loss%2520Sheet.5f26615b5241f6.33287736.pdf%22%2C%22owner%22%3A%22pareshdas680%22%7D%7D%2C%7B%22name%22%3A%22attach%22%2C%22value%22%3A%22false%22%7D%5D" data-version="2" />
+            </div>
+            <script type="text/javascript">
+            setTimeout(function()
+{
+  var _cFieldFrame = document.getElementById("customFieldFrame_145");
+  if (_cFieldFrame)
+  {
+    _cFieldFrame.onload = function()
+    {
+      if (typeof widgetFrameLoaded !== 'undefined')
+      {
+        widgetFrameLoaded(145, {
+          "formID": 202114510315436
+        })
+      }
+    };
+    _cFieldFrame.src = "//widgets.jotform.io/pdfEmbed/?qid=145&ref=" + encodeURIComponent(window.location.protocol + "//" + window.location.host) + '' + '' + '&injectCSS=' + encodeURIComponent(window.location.search.indexOf("ndt=1") > -1);
+    _cFieldFrame.addClassName("custom-field-frame-rendered");
+  }
+}, 0);
+            </script>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_textbox" id="id_24">
+        <label class="form-label form-label-top" id="label_24" for="input_24"> Kurti Code No </label>
+        <div id="cid_24" class="form-input-wide">
+          <input type="text" id="input_24" name="q24_kurtiCode" data-type="input-textbox" class="form-textbox" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_24" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_100">
+        <label class="form-label form-label-top" id="label_100" for="input_100"> Quantity </label>
+        <div id="cid_100" class="form-input-wide">
+          <input type="text" id="input_100" name="q100_quantity100" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_100" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_textbox" id="id_103">
+        <label class="form-label form-label-left form-label-auto" id="label_103" for="input_103"> Rate </label>
+        <div id="cid_103" class="form-input">
+          <input type="text" id="input_103" name="q103_rate" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" data-component="textbox" aria-labelledby="label_103" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_calculation" id="id_88">
+        <label class="form-label form-label-top" id="label_88" for="input_88"> TOTAL </label>
+        <div id="cid_88" class="form-input-wide">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_88" name="q88_total" value="0" size="12" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_textbox" id="id_105">
+        <label class="form-label form-label-top" id="label_105" for="input_105"> Saree Code No </label>
+        <div id="cid_105" class="form-input-wide">
+          <input type="text" id="input_105" name="q105_sareeCode" data-type="input-textbox" class="form-textbox" size="1" value="" data-component="textbox" aria-labelledby="label_105" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_106">
+        <label class="form-label form-label-top" id="label_106" for="input_106"> Quantity </label>
+        <div id="cid_106" class="form-input-wide">
+          <input type="text" id="input_106" name="q106_quantity" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_106" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_textbox" id="id_107">
+        <label class="form-label form-label-left form-label-auto" id="label_107" for="input_107"> Rate </label>
+        <div id="cid_107" class="form-input">
+          <input type="text" id="input_107" name="q107_rate107" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" data-component="textbox" aria-labelledby="label_107" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_calculation" id="id_108">
+        <label class="form-label form-label-top" id="label_108" for="input_108"> TOTAL </label>
+        <div id="cid_108" class="form-input-wide">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_108" name="q108_total108" value="0" size="12" />
+        </div>
+      </li>
+      <li id="cid_124" class="form-input-wide" data-type="control_pagebreak">
+        <div class="form-pagebreak" data-component="pagebreak">
+          <div class="form-pagebreak-back-container">
+            <button id="form-pagebreak-back_124" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">
+              Back
+            </button>
+          </div>
+          <div class="form-pagebreak-next-container">
+            <button id="form-pagebreak-next_124" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">
+              Next
+            </button>
+          </div>
+          <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_124">
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="form-section page-section" style="display:none;">
+      <li class="form-line form-line-column form-col-1" data-type="control_textbox" id="id_109">
+        <label class="form-label form-label-top" id="label_109" for="input_109"> Laggings Code No </label>
+        <div id="cid_109" class="form-input-wide">
+          <input type="text" id="input_109" name="q109_laggingsCode" data-type="input-textbox" class="form-textbox" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_109" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_110">
+        <label class="form-label form-label-top" id="label_110" for="input_110"> Quantity </label>
+        <div id="cid_110" class="form-input-wide">
+          <input type="text" id="input_110" name="q110_quantity110" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_110" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_textbox" id="id_111">
+        <label class="form-label form-label-left form-label-auto" id="label_111" for="input_111"> Rate </label>
+        <div id="cid_111" class="form-input">
+          <input type="text" id="input_111" name="q111_rate111" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" data-component="textbox" aria-labelledby="label_111" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_calculation" id="id_112">
+        <label class="form-label form-label-top" id="label_112" for="input_112"> TOTAL </label>
+        <div id="cid_112" class="form-input-wide">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_112" name="q112_total112" value="0" size="12" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_divider" id="id_127">
+        <div id="cid_127" class="form-input-wide">
+          <div data-component="divider" style="border-bottom:1px solid #63f2f2;height:1px;margin-left:0px;margin-right:0px;margin-top:5px;margin-bottom:5px">
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_textbox" id="id_113">
+        <label class="form-label form-label-top" id="label_113" for="input_113"> Nighty Code No </label>
+        <div id="cid_113" class="form-input-wide">
+          <input type="text" id="input_113" name="q113_nightyCode" data-type="input-textbox" class="form-textbox" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_113" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_114">
+        <label class="form-label form-label-top" id="label_114" for="input_114"> Quantity </label>
+        <div id="cid_114" class="form-input-wide">
+          <input type="text" id="input_114" name="q114_quantity114" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_114" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_textbox" id="id_115">
+        <label class="form-label form-label-left form-label-auto" id="label_115" for="input_115"> Rate </label>
+        <div id="cid_115" class="form-input">
+          <input type="text" id="input_115" name="q115_rate115" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" data-component="textbox" aria-labelledby="label_115" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_calculation" id="id_116">
+        <label class="form-label form-label-top" id="label_116" for="input_116"> TOTAL </label>
+        <div id="cid_116" class="form-input-wide">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_116" name="q116_total116" value="0" size="12" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_divider" id="id_128">
+        <div id="cid_128" class="form-input-wide">
+          <div data-component="divider" style="border-bottom:1px solid #63f2f2;height:1px;margin-left:0px;margin-right:0px;margin-top:5px;margin-bottom:5px">
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_textbox" id="id_117">
+        <label class="form-label form-label-top" id="label_117" for="input_117"> Other Code No </label>
+        <div id="cid_117" class="form-input-wide">
+          <input type="text" id="input_117" name="q117_otherCode" data-type="input-textbox" class="form-textbox" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_117" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_118">
+        <label class="form-label form-label-top" id="label_118" for="input_118"> Quantity </label>
+        <div id="cid_118" class="form-input-wide">
+          <input type="text" id="input_118" name="q118_quantity118" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" placeholder=" " data-component="textbox" aria-labelledby="label_118" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_textbox" id="id_119">
+        <label class="form-label form-label-left form-label-auto" id="label_119" for="input_119"> Rate </label>
+        <div id="cid_119" class="form-input">
+          <input type="text" id="input_119" name="q119_rate119" data-type="input-textbox" class="form-textbox validate[Numeric]" size="1" value="" data-component="textbox" aria-labelledby="label_119" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_calculation" id="id_120">
+        <label class="form-label form-label-top" id="label_120" for="input_120"> TOTAL </label>
+        <div id="cid_120" class="form-input-wide">
+          <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_120" name="q120_total120" value="0" size="12" />
+        </div>
+      </li>
+      <li id="cid_121" class="form-input-wide" data-type="control_pagebreak">
+        <div class="form-pagebreak" data-component="pagebreak">
+          <div class="form-pagebreak-back-container">
+            <button id="form-pagebreak-back_121" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">
+              Back
+            </button>
+          </div>
+          <div class="form-pagebreak-next-container">
+            <button id="form-pagebreak-next_121" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">
+              Next
+            </button>
+          </div>
+          <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_121">
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="form-section page-section" style="display:none;">
+      <li id="cid_31" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-default">
+          <div class="header-text httal htvam">
+            <h2 id="header_31" class="form-header" data-component="header">
+              Payment Details
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_checkbox" id="id_32">
+        <label class="form-label form-label-left form-label-auto" id="label_32" for="input_32">
+          Payment Mode
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_32" class="form-input jf-required">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_32" data-component="checkbox">
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox validate[required]" id="input_32_0" name="q32_paymentMode32[]" value="Online" required="" />
+              <label id="label_input_32_0" for="input_32_0"> Online </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox validate[required]" id="input_32_1" name="q32_paymentMode32[]" value="Cash" required="" />
+              <label id="label_input_32_1" for="input_32_1"> Cash </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_datetime" id="id_34">
+        <label class="form-label form-label-left form-label-auto" id="label_34" for="lite_mode_34"> Order Date </label>
+        <div id="cid_34" class="form-input">
+          <div data-wrapper-react="true">
+            <div style="display:none">
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <input type="tel" class="currentDate form-textbox validate[limitDate]" id="day_34" name="q34_orderDate[day]" size="2" data-maxlength="2" maxLength="2" value="08" autoComplete="off" aria-labelledby="label_34 sublabel_34_day" />
+                <span class="date-separate" aria-hidden="true">
+                   -
+                </span>
+                <label class="form-sub-label" for="day_34" id="sublabel_34_day" style="min-height:13px" aria-hidden="false"> Day </label>
+              </span>
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="month_34" name="q34_orderDate[month]" size="2" data-maxlength="2" maxLength="2" value="08" autoComplete="off" aria-labelledby="label_34 sublabel_34_month" />
+                <span class="date-separate" aria-hidden="true">
+                   -
+                </span>
+                <label class="form-sub-label" for="month_34" id="sublabel_34_month" style="min-height:13px" aria-hidden="false"> Month </label>
+              </span>
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="year_34" name="q34_orderDate[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="2020" autoComplete="off" aria-labelledby="label_34 sublabel_34_year" />
+                <label class="form-sub-label" for="year_34" id="sublabel_34_year" style="min-height:13px" aria-hidden="false"> Year </label>
+              </span>
+            </div>
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <input type="text" class="form-textbox validate[limitDate, validateLiteDate]" id="lite_mode_34" size="12" data-maxlength="12" maxLength="12" data-age="" value="08-08-2020" data-format="ddmmyyyy" data-seperator="-" placeholder="dd-mm-yyyy" autoComplete="off" aria-labelledby="label_34 sublabel_34_litemode" />
+              <img class=" newDefaultTheme-dateIcon icon-liteMode" alt="Pick a Date" id="input_34_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v1" />
+              <label class="form-sub-label" for="lite_mode_34" id="sublabel_34_litemode" style="min-height:13px" aria-hidden="false"> Date </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_51">
+        <label class="form-label form-label-left form-label-auto" id="label_51" for="input_51"> Payment </label>
+        <div id="cid_51" class="form-input">
+          <div class="form-single-column" role="group" aria-labelledby="label_51" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_51_0" name="q51_payment[]" value="Paid" />
+              <label id="label_input_51_0" for="input_51_0"> Paid </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_51_1" name="q51_payment[]" value="Not paid" />
+              <label id="label_input_51_1" for="input_51_1"> Not paid </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_51_2" name="q51_payment[]" value="Advance" />
+              <label id="label_input_51_2" for="input_51_2"> Advance </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_divider" id="id_67">
+        <div id="cid_67" class="form-input-wide">
+          <div data-component="divider" style="border-bottom:1px solid #e6e6e6;height:1px;margin-left:0px;margin-right:0px;margin-top:5px;margin-bottom:5px">
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_33">
+        <div id="cid_33" class="form-input-wide">
+          <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+            <button id="input_33" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Submit
+            </button>
+            <span>
+               
+            </span>
+            <button id="input_reset_33" type="reset" class="form-submit-reset jf-form-buttons" data-component="button">
+              Clear Form
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by JotForm";
+  </script>
+  <input type="hidden" id="passProtectToken" name="passProtectToken" value="a73ad5f4ae39f14197b219393810143bc898c16d950d09037d475b589a1e1add" />
+  <input type="hidden" id="simple_spc" name="simple_spc" value="202114510315436" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "202114510315436-202114510315436";
+  </script>
+
+</form>
